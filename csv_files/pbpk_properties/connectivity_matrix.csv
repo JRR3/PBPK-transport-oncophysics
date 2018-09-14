@@ -1,0 +1,10 @@
+,Left Leg,Right Leg,Inguinal,Mesenteric,Left Axillary,Right Axillary,Cervical,Blood,Spleen
+Left Leg,,,1,,,,,,
+Right Leg,,,1,,,,,,
+Inguinal,,,,1,,,,,
+Mesenteric,,,,,,,,,
+Left Axillary,,,,1,,,,,
+Right Axillary,,,,1,,,,,
+Cervical,,,,,1,1,,,
+Blood,1,1,1,1,1,1,1,,1
+Spleen,,,,,,,,,
