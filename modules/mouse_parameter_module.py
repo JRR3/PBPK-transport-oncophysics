@@ -84,23 +84,23 @@ CD8+ cells.
 The measurements correspond to the product of the perpendicular diameters.
 X: Time (days)
 Y: Area (mm^2)
-'''
 path       = r'../papers_for_3rd_example'
 fname      = r'tumor_growth.csv'
 fname      = os.path.join(path, fname)
 tumor_area_data = pd.read_csv(fname, header = None, index_col = False)
 tumor_area_data = tumor_area_data.values
+'''
 
 
 '''
 Compute tumor average radius and volume from previously loaded area data
 Length units are in mm
-'''
 tumor_area_data[tumor_area_data < 0] = 0.
 tumor_average_area     = np.mean(tumor_area_data[:,1])
 tumor_average_diameter = np.sqrt(tumor_average_area)
 tumor_average_radius = tumor_average_diameter * 0.5
 tumor_average_volume = 4. / 3. * np.pi * np.power(tumor_average_radius, 3)
+'''
 #print 'TAA:', tumor_average_area
 #print 'TAR:', tumor_average_radius
 #print 'TAV:', tumor_average_volume
