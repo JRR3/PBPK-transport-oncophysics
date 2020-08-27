@@ -2,10 +2,10 @@
 
 ## Origin
 ---------------------------------------------------------------------- 
-This implementation was coded at the [Houston Methodist Research Institute]
-(https://www.houstonmethodist.org/research/).
+This implementation was coded at the [Houston Methodist Research Institute](https://www.houstonmethodist.org/research/).
 It is part of a project coordinated by the PI Mauro Ferrari,
 supervised by Arturas Ziemys and developed by Javier Ruiz Ramirez.
+You can find our paper at: [paper](https://www.sciencedirect.com/science/article/abs/pii/S0022519320300485)
 
 ##  Summary
 ---------------------------------------------------------------------- 
